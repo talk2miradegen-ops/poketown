@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // === 3. CONFIG ===
   const MINT = '3ouaDAYPzjX9zc4TRQj1WrcW3bndPxrsKDpUGBNdpump';
-  const ORCA_POOL = 'Fb1L22MAYNZu3RsjXuZtWMfBkP8hMaSbjpUkwFhQrdNe';
+  const ORCA_POOL = '3ouaDAYPzjX9zc4TRQj1WrcW3bndPxrsKDpUGBNdpump';
 
   // === 4. LIVE STATS FROM DEXSCREENER ===
   async function fetchLiveStats() {
@@ -131,4 +131,5 @@ document.addEventListener('DOMContentLoaded', () => {
       container.appendChild(p);
     }
   }
+
 });
